@@ -1,23 +1,23 @@
 # Dashboard Coopluiza
 
-Olá pessoal! Sou o Gabriel e estou animado em fazer parte desta incrível comunidade do github. Estou aqui para me aprofundar nessa plataforma e aproveitar ao máximo todas as oportunidades de aprendizado que ela oferece.
+Olá, pessoal! Sou o Gabriel e estou empolgado em fazer parte desta incrível comunidade do GitHub. Estou aqui para me aprofundar nessa plataforma e aproveitar todas as oportunidades de aprendizado que ela oferece.
 
+## 💡 Sobre o Projeto
 
-# Sobre o projeto :
+Gostaria de apresentar meu primeiro projeto, desenvolvido com carinho e dedicação. O objetivo deste dashboard é simplificar a análise de dados cooperativos, proporcionando uma visualização intuitiva das adesões na COOPLUIZA (Cooperativa de Crédito do Magazine Luiza).
 
-Hoje, gostaria de compartilhar com vocês o primeiro projeto que desenvolvi com muito carinho e dedicação, no qual possui o objetivo de simplificar processos realizados sobre dados cooperativos. Trata-se de uma dashboard focada em proporcionar uma visualização mais eficiente e intuitiva sobre as adesões realizadas na COOPLUIZA (Cooperativa de Crédito do Magazine Luiza). 
+## 🖥 Tecnologias Utilizadas
 
+Utilizei **HTML**, **CSS** e **JavaScript** para construir o dashboard, além de integrar uma API. Embora não tenha sido possível usar a API da cooperativa devido a custos adicionais, optei por uma API de dados da COVID-19. Essa escolha serve como demonstração de que podemos criar ferramentas que não apenas apresentam números, mas também os transformam em insights acionáveis.
 
-# Tecnologias Utilizadas :
+## ✅ Funcionalidades
 
-Com a utilização de HTML, CSS e JavaScript, além da integração com uma API , na qual infelizmente não foi possível utilizar a própria da cooperativa, pois haveria custos a mais para exercer esse tipo de processo, sucedeu-se que a dashboard deveria manter o foco do projeto inicial. Assim, foi utilizado uma API sobre os dados da COVID-19 para evidenciar que é possível e servir aos demais como demonstração que conseguimos criar uma ferramenta que não apenas apresenta os números, mas os transforma em insights acionáveis. 
+O dashboard apresenta dois gráficos que destacam os resultados semanais e mensais. Além disso, conta com recursos interativos que permitem aos usuários explorar os dados de maneira dinâmica e personalizada. Entre as funcionalidades, estão:
 
+- **Modo Escuro**: para uma visualização mais agradável em ambientes com pouca luz.
+- **Zoom nos Gráficos**: permitindo um olhar mais detalhado sobre os dados.
+- **Caixa de Pesquisa**: localizada no canto superior esquerdo, facilitando a busca por informações específicas.
 
-# Conclusão: 
+## 🚀 Link do Deploy
 
-Nesse dashboard é possível observar-se dois gráficos que simplificam e evidenciam os resultados obtidos na semana e nos meses que decorrem o ano, além de possuir alguns recursos interativos, permitindo que os usuários explorem os dados de maneira dinâmica e personalizada, a exemplo da utilização do dark mode, os zooms nos gráficos e a caixa de pesquisa no canto superior esquerdo. 
-
-
-Estou ansioso para compartilhar mais sobre minha evolução como desenvolvedor e aprender com a vasta experiência desta comunidade. 
-
-Segue o link do deploy: https://dashboardcoopluiza.netlify.app
+Estou ansioso para compartilhar minha evolução como desenvolvedor e aprender com a vasta experiência desta comunidade. Confira o projeto no seguinte link: [Dashboard Coopluiza](https://dashboardcoopluiza.netlify.app).
