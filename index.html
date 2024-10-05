@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard coopluiza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="loading loading--hide">
+        <i class="fas fa-spinner loading_spinner"></i>
+    </div>
+
+	<div class="navbar"> 
+
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="144" height="50" viewBox="0 0 909.000000 274.000000"
+        preserveAspectRatio="xMidYMid meet">
+        <metadata>
+        Created by potrace 1.16, written by Peter Selinger 2001-2019
+        </metadata>
+        <g transform="translate(0.000000,274.000000) scale(0.100000,-0.100000)"
+        fill="#00000" stroke="none">
+        <path class="point-i" d="M6523 2304 c-69 -34 -93 -122 -50 -185 76 -115 252 -76 264 58 3 36
+        -1 56 -15 79 -37 59 -131 81 -199 48z"/><path d="M1713 1966 c-287 -70 -457 -385 -358 -665 49 -140 173 -259 326 -312
+        90 -31 238 -31 329 0 163 56 293 193 336 355 18 66 18 187 -1 255 -47 179
+        -189 318 -372 366 -68 18 -188 18 -260 1z m223 -241 c45 -18 102 -72 126 -119
+        13 -26 23 -67 26 -112 6 -96 -15 -160 -74 -218 -136 -137 -352 -75 -409 117
+        -19 64 -19 87 1 159 42 150 192 228 330 173z"/><path d="M2831 1964 c-133 -36 -268 -148 -330 -276 -92 -188 -51 -420 101
+        -572 286 -285 771 -152 873 240 67 259 -103 539 -370 609 -73 19 -202 18 -274
+        -1z m257 -255 c114 -65 161 -210 112 -343 -25 -65 -85 -125 -153 -151 -89 -34
+        -193 -3 -261 77 -109 127 -75 336 67 418 43 25 63 30 117 30 54 0 74 -5 118
+        -31z"/><path d="M8029 1962 c-151 -50 -284 -203 -324 -373 -39 -167 7 -337 127 -465
+        120 -127 280 -174 428 -124 68 23 145 66 175 100 27 30 35 25 35 -25 0 -34 5
+        -47 19 -55 28 -14 204 -13 219 2 9 9 12 126 12 464 0 403 -2 453 -16 458 -30
+        11 -209 7 -222 -6 -7 -7 -12 -34 -12 -60 0 -26 -3 -48 -6 -48 -3 0 -27 19 -53
+        43 -76 67 -150 99 -245 103 -60 3 -95 -1 -137 -14z m299 -253 c161 -92 177
+        -327 32 -452 -97 -83 -221 -76 -317 19 -98 97 -111 235 -34 356 44 69 116 108
+        201 108 54 0 74 -5 118 -31z"/><path d="M705 1957 c-117 -30 -257 -135 -317 -238 -54 -92 -70 -163 -66 -284
+        4 -82 10 -124 27 -167 48 -124 165 -241 289 -289 89 -35 250 -39 344 -8 119
+        38 228 125 228 183 0 48 -60 110 -117 122 -22 4 -41 -3 -87 -34 -130 -89 -267
+        -73 -360 41 -92 113 -83 266 22 372 92 93 195 99 324 20 57 -35 57 -36 95 -20
+        45 19 79 49 100 88 14 27 13 31 -13 69 -38 54 -78 86 -153 121 -56 26 -78 31
+        -165 33 -60 2 -121 -2 -151 -9z"/><path d="M6857 1953 c-10 -9 -8 -221 1 -227 5 -3 93 -6 195 -6 103 -1 189 -5
+        191 -8 2 -4 -61 -91 -141 -192 -79 -102 -171 -220 -204 -262 l-60 -78 3 -82 3
+        -83 395 0 395 0 0 115 0 115 -223 5 c-139 3 -222 9 -221 15 1 6 69 87 152 180
+        83 94 181 203 217 244 l65 74 0 82 c0 55 -5 87 -14 98 -12 15 -51 17 -381 17
+        -201 0 -370 -3 -373 -7z"/><path d="M3650 1931 c-6 -13 -10 -171 -10 -446 0 -275 4 -433 10 -446 10 -17
+        22 -19 123 -19 75 0 117 4 125 12 8 8 12 49 12 120 l0 108 113 0 c129 0 214
+        13 270 42 65 32 122 93 153 161 24 52 28 75 28 148 0 78 -3 92 -34 155 -73
+        144 -196 183 -577 184 -190 0 -203 -1 -213 -19z m493 -232 c56 -28 74 -102 40
+        -159 -24 -42 -53 -50 -168 -50 l-105 0 0 110 0 110 106 0 c58 0 115 -5 127
+        -11z"/>
+        <path d="M4595 1927 c-4 -13 -5 -172 -3 -353 3 -373 5 -381 88 -464 80 -80
+        100 -85 385 -85 l250 0 0 125 0 125 -202 5 c-196 5 -202 6 -227 29 l-26 24 0
+        297 c0 217 -3 299 -12 308 -8 8 -52 12 -130 12 -115 0 -118 -1 -123 -23z"/>
+        <path d="M5399 1929 c-8 -16 -10 -108 -7 -338 5 -300 6 -319 28 -375 92 -239
+        416 -301 613 -118 l27 26 0 -40 c0 -22 5 -45 12 -52 8 -8 52 -12 130 -12 114
+        0 118 1 123 23 3 12 4 220 3 462 l-3 440 -119 3 c-78 2 -123 -1 -132 -9 -11
+        -9 -14 -63 -14 -283 0 -266 0 -272 -24 -316 -28 -54 -93 -107 -143 -116 -44
+        -8 -115 9 -155 37 -16 11 -38 39 -51 62 -21 40 -22 56 -27 332 l-5 290 -122 3
+        c-117 2 -122 2 -134 -19z"/>
+        <path d="M6466 1934 c-3 -9 -6 -212 -6 -453 0 -327 3 -440 12 -449 8 -8 50
+        -12 123 -12 73 0 115 4 123 12 9 9 12 122 12 449 0 241 -3 444 -6 453 -5 13
+        -26 16 -129 16 -103 0 -124 -3 -129 -16z" />
+        
+        </g>
+        </svg>
+        <img src="./imagedown.png" alt="gradient-logo" class="image-down">
+
+        <div class="switch">
+            <i class="fas fa-sun"></i>
+            <span class="switch__track"></span>
+            <i class="fas fa-moon"></i>
+        </div>
+
+    </div>
+
+    <div class="container">
+            <div class="state-select">
+                <div class="state-select-toggle">
+                    <span class="state-select-toggle__state-selected">Mês</span>
+                    <i class="fas fa-chevron-down state-select-toggle__icon"></i>
+                </div>
+                <div class="state-select-list">
+                    <input type="text" placeholder="Procurar Mês..." class="state-select-list__search">
+                <ul>
+                    <li class="state-select-list__item" data-id=  "brasil=true">Mês</li>
+                    <li class="state-select-list__item" data-id=  "uf=11">Janeiro</li>
+                    <li class="state-select-list__item" data-id=  "uf=12">Fevereiro</li>
+                    <li class="state-select-list__item" data-id=  "uf=13">Março</li>
+                    <li class="state-select-list__item" data-id=  "uf=14">Abril</li>
+                    <li class="state-select-list__item" data-id=  "uf=15">Maio</li>
+                    <li class="state-select-list__item" data-id=  "uf=16">Junho</li>
+                    <li class="state-select-list__item" data-id=  "uf=17">Julho</li>
+                    <li class="state-select-list__item" data-id=  "uf=23">Agosto</li>
+                    <li class="state-select-list__item" data-id=  "uf=24">Setembro</li>
+                    <li class="state-select-list__item" data-id=  "uf=25">Outubro</li>
+                    <li class="state-select-list__item" data-id=  "uf=21">Novembro</li>
+                    <li class="state-select-list__item" data-id=  "uf=22">Dezembro</li>
+                </ul>
+              </div>
+            </div>
+
+            <section class="status">
+                <div class="status__icon status__icon--confirmed">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="info">
+                    <span class="info__total info__total--confirmed"> 123,456,789</span>
+                    <h2 class="info__label">CONFIRMADOS</h2>
+                </div>
+            </section>
+
+            <section class="status">
+                <div class="status__icon status__icon--goal">
+                    <i class="fa fa-bullseye"></i>
+                </div>
+                <div class="info">
+                    <span class="info__total info__total--goal"> 68.983</span>
+                    <h2 class="info__label">META</h2>
+                </div>
+            </section>
+
+            <section class="status">
+                <div class="status__icon status__icon--deaths">
+                    <i class="fa fa-arrow-down"></i>
+                </div>
+                <div class="info">
+                    <span class="info__total info__total--deaths"> 123,456,789</span>
+                    <h2 class="info__label">GAP</h2>
+                </div>
+            </section>
+
+            <section class="status">
+                <div class="status__icon status__icon--adesao ">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="info">
+                    <span class="info__total info__total--adesao"> 123,456,789</span>
+                    <h2 class="info__label">MÊS ANTERIOR</h2>
+                </div>
+            </section>
+
+           
+
+            <div id="d" class="data-box data-box--adesao">
+                <h2 class="data-box__header">
+                    confirmados por mês
+                </h2>
+                <div class="data-box__body"></div>
+              </div>
+
+            <div id="d" class="data-box data-box--confirmed">
+                <h2 class="data-box__header">
+                    confirmados da semana
+                </h2>
+                <div class="data-box__body"></div>
+              </div>
+        </div>
+
+        <div class="chartdiv">
+            
+        <div id="chartdiv"></div>
+        <div id="chartdivtwo"></div>
+        
+        </div>
+
+        
+
+        <footer>
+            <div class="footer.text">
+                <p class="footer-text__source">Fonte: Cooperativa de crédito do Magazine Luiza</p>
+                <p class="footer-text__copyright">Desenvolvido por Gabriel Oliveira <br></p>
+
+            </div>
+        </footer>
+
+       
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.27.3/apexcharts.min.js" integrity="sha512-nKTh1Ik8Kzbrxo9A6xOBtEbzdNYcjI4Pr5XE88sNJQk87sY8mBlUfh61lYm0i710r5mGcIZ9tWSwORQbQ4plQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/apexcharts-pt-br.js"></script>
+	<script src="js/apiCovid.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+</body>
+<script>
+    am5.ready(function() {
+    
+    var root = am5.Root.new("chartdiv");
+    
+    root.setThemes([
+      am5themes_Animated.new(root)
+    ]);
+    
+    // Create chart
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/
+    var chart = root.container.children.push(am5xy.XYChart.new(root, {
+      panX: true,
+      panY: true,
+      wheelX: "panX",
+      wheelY: "zoomX",
+      pinchZoomX: true,
+      paddingLeft:0,
+      paddingRight:1
+    }));
+    
+    // Add cursor
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+    var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+    cursor.lineY.set("visible", false);
+    
+    
+    // Create axes
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+    var xRenderer = am5xy.AxisRendererX.new(root, { 
+      minGridDistance: 30, 
+      minorGridEnabled: true
+    });
+    
+    xRenderer.labels.template.setAll({
+      rotation: -90,
+      centerY: am5.p50,
+      centerX: am5.p100,
+      paddingRight: 15
+    });
+    
+    xRenderer.grid.template.setAll({
+      location: 1
+    })
+    
+    var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+      maxDeviation: 0.3,
+      categoryField: "country",
+      renderer: xRenderer,
+      tooltip: am5.Tooltip.new(root, {})
+    }));
+    
+    var yRenderer = am5xy.AxisRendererY.new(root, {
+      strokeOpacity: 0.1
+    })
+    
+    var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+      maxDeviation: 0.3,
+      renderer: yRenderer
+    }));
+    
+    // Create series
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+    var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+      name: "Series 1",
+      xAxis: xAxis,
+      yAxis: yAxis,
+      valueYField: "value",
+      sequencedInterpolation: true,
+      categoryXField: "country",
+      tooltip: am5.Tooltip.new(root, {
+        labelText: "{valueY}"
+      })
+    }));
+    
+    series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+    series.columns.template.adapters.add("fill", function (fill, target) {
+      return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+    
+    series.columns.template.adapters.add("stroke", function (stroke, target) {
+      return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+
+    // Set data
+    var data = [{
+        country: "Janeiro",
+      value: 479573
+    },
+    {
+      country: "Fevereiro",
+      value: 160163
+    },
+    {
+      country: "Março",
+      value: 625367
+    },
+    {
+      country: "Abril",
+      value: 181815
+    },
+    {
+      country: "Maio",
+      value: 865702
+    },
+    {
+      country: "Junho",
+      value: 183978
+    },
+    {
+      country: "Julho",
+      value: 364002
+    },
+    {
+      country: "Agosto",
+      value: 1448390
+    },
+    {
+      country: "Setembro",
+      value: 603072
+    },
+    {
+      country: "Outubro",
+      value: 706351
+    },
+    {
+      country: "Novembro",
+      value: 491428
+    },
+    {
+      country: "Dezembro",
+      value: 418951
+    },
+
+    ];
+    
+    xAxis.data.setAll(data);
+    series.data.setAll(data);
+    
+    
+    // Make stuff animate on load
+    // https://www.amcharts.com/docs/v5/concepts/animations/
+    series.appear(1000);
+    chart.appear(1000, 100);
+    
+    }); // end am5.ready()
+    </script>
+
+<script>
+    am5.ready(function() {
+    
+    var root = am5.Root.new("chartdivtwo");
+    
+    root.setThemes([
+      am5themes_Animated.new(root)
+    ]);
+    
+    // Create chart
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/
+    var chart = root.container.children.push(am5xy.XYChart.new(root, {
+      panX: true,
+      panY: true,
+      wheelX: "panX",
+      wheelY: "zoomX",
+      pinchZoomX: true,
+      paddingLeft:0,
+      paddingRight:1
+    }));
+    
+    // Add cursor
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+    var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+    cursor.lineY.set("visible", false);
+    
+    
+    // Create axes
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+    var xRenderer = am5xy.AxisRendererX.new(root, { 
+      minGridDistance: 30, 
+      minorGridEnabled: true
+    });
+    
+    xRenderer.labels.template.setAll({
+      rotation: -90,
+      centerY: am5.p50,
+      centerX: am5.p100,
+      paddingRight: 15
+    });
+    
+    xRenderer.grid.template.setAll({
+      location: 1
+    })
+    
+    var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+      maxDeviation: 0.3,
+      categoryField: "country",
+      renderer: xRenderer,
+      tooltip: am5.Tooltip.new(root, {})
+    }));
+    
+    var yRenderer = am5xy.AxisRendererY.new(root, {
+      strokeOpacity: 0.1
+    })
+    
+    var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+      maxDeviation: 0.3,
+      renderer: yRenderer
+    }));
+    
+    // Create series
+    // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+    var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+      name: "Series 1",
+      xAxis: xAxis,
+      yAxis: yAxis,
+      valueYField: "value",
+      sequencedInterpolation: true,
+      categoryXField: "country",
+      tooltip: am5.Tooltip.new(root, {
+        labelText: "{valueY}"
+      })
+    }));
+    
+    series.columns.template.setAll({ cornerRadiusTL: 2, cornerRadiusTR: 5, strokeOpacity: 0 });
+    series.columns.template.adapters.add("fill", function (fill, target) {
+      return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+    
+    series.columns.template.adapters.add("stroke", function (stroke, target) {
+      return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+
+    // Set data
+    var data = [{
+        country: "Segunda",
+        value: 226314
+    },
+    {
+      country: "Terça",
+      value: 260163
+    },
+    {
+      country: "Quarta",
+      value: 226367
+    },
+    {
+      country: "Quinta",
+      value: 281815
+    },
+    {
+      country: "Sexta",
+      value: 265702
+    },
+    {
+      country: "Sábado",
+      value: 233988
+    },
+    {
+      country: "Domingo",
+      value: 264002
+    },
+
+    ];
+    
+    xAxis.data.setAll(data);
+    series.data.setAll(data);
+    
+    
+    // Make stuff animate on load
+    // https://www.amcharts.com/docs/v5/concepts/animations/
+    series.appear(1000);
+    chart.appear(1000, 100);
+    
+    }); // end am5.ready()
+    </script>
+</html>
